@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEZ2p5dUBB0ux53X/VNW56wAAAAACAAAAAAAQZgAAAAEAACAAAADYxLWIxJsNlPiEEyGZiMEFEGeiBFiu5zWdboBNL/FzxAAAAAAOgAAAAAIAACAAAABRYugn8qqkmGgwyNm/kZ5TP9mpM0hllWIBZRz6vAB5uYAAAABAaEcK+yMeeyQWhzeQLuOhhUDu7Ni0dHkbKIX3RlufQYoe7LKMrXd5toxxFDX2cZg2d4rd9Lac/y31wmIO73KQBb5OACqOHjgJCec7wrFai+TMlW501DK7h2wxcn8DnCw0cZfjd8pKPfq2M1iLyNsKfzVv2y6GCm8H0w6Z8RTYp0AAAABbL1s0WlYKR2HoYXFLnijzlSID2OkAKBUSbKGWzI2bLMG9ljSEfUfDDocCmxI6ZmS7E+wKLbpI8XoFJME2lzOU</EncryptedPassword>
+    <History>True|2022-07-04T16:33:59.3964491Z;True|2022-07-04T13:32:01.2947609-03:00;True|2022-07-04T13:15:04.3522324-03:00;True|2022-07-04T13:12:42.5742945-03:00;True|2022-07-04T13:05:04.5584627-03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:cursomvcdb.database.windows.net,1433%3bInitial Catalog=CursoMVC_db%3bUser Id=curso%40cursomvcdb%3bPassword=Ccs656357159</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="CursoMVC.Models.Context">
+      <Value>Data Source=tcp:cursomvcdb.database.windows.net,1433%3bInitial Catalog=CursoMVC_db%3bUser Id=curso%40cursomvcdb%3bPassword=Ccs656357159</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
